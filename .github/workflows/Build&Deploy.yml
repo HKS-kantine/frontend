@@ -29,8 +29,8 @@ jobs:
         run: |  
           npm i  
           npm run build:ci  
-      - name: Push Build to Releases  
-        uses: HKS-kantine/frontend@v1  
-        with:  
-          artifacts: "dist/angular-githubaction/*"  
-          token: ${{ secrets.TOKEN_GITHUB_ACTION }} 
+#       - name: Push Build to Releases  
+#         uses: HKS-kantine/frontend@v1  
+#         with:  
+#           artifacts: "dist/angular-githubaction/*"  
+#           token: ${{ secrets.TOKEN_GITHUB_ACTION }} 
