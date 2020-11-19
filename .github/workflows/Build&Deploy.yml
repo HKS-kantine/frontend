@@ -24,7 +24,7 @@ jobs:
         npm install
         npm run-script deploy
     - name: Deploy
-      uses: HKS-kantine/frontend
+      uses: HKS-kantine/frontend@releases
       with:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         BRANCH: gh-pages
